@@ -2,20 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+input {
+  border-radius: 12px; /* Ajuste o valor para o nível de arredondamento desejado */
+  padding: 10px; /* Adiciona um pouco de preenchimento dentro do campo */
+  border: 1px solid #ccc; /* Cor da borda */
+  font-size: 16px; /* Tamanho da fonte */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.Meucard {
+  width: 50%;
+  border-radius: 12px; /* Ajuste o valor para o nível de arredondamento desejado */
+  padding: 10px; /* Adiciona um pouco de preenchimento dentro do campo */
+  border: 1px solid #ccc; /* Cor da borda */
+  font-size: 16px; /* Tamanho da fonte */
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: floralwhite;
+  opacity: calc(80%);
 }
