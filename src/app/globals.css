@@ -21,3 +21,11 @@ input {
   background-color: floralwhite;
   opacity: calc(80%);
 }
+
+.NavBar {
+  padding-top: 20px;
+}
+
+.textLinha {
+  padding-top: 30px;
+}

@@ -1,12 +1,13 @@
 'use client'
 import React from "react";
-import {NavigationToCatalogo} from "@/app/routers/navegation";
+import {NavigationToCatalogo, NavigationToHome} from "@/app/routers/navegation";
+import "../globals.css";
 
 export default function ButtonNavegation() {
   return (
     <>
       <div className="btm-nav fixed top-0 left-0 right-0 z-10 shadow-md">
-        <button onClick={NavigationToCatalogo}>
+        <button onClick={NavigationToHome}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -22,7 +23,7 @@ export default function ButtonNavegation() {
             />
           </svg>
         </button>
-        <button className="active">
+        <button className="active" onClick={NavigationToCatalogo}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"

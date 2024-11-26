@@ -15,4 +15,11 @@ export const NavigationToCatalogo = () => {
         
         }
 
+        export const NavigationToLogin = () => {
+          return(
+            redirect('/login')
+          )
+          
+          }
+
 

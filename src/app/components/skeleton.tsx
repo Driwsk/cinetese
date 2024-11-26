@@ -5,7 +5,7 @@ export default function Skeleton() {
         <div className="flex items-center gap-4">
           <div className="skeleton h-16 w-16 shrink-0 rounded-full"></div>
           <div className="flex flex-col gap-4">
-            <div className="skeleton h-4 w-20"></div>
+            <input className="skeleton h-4 flex-1"></input>
             <div className="skeleton h-4 w-28"></div>
           </div>
         </div>

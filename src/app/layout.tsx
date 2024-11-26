@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ButtonNavegation from "./components/buttonNavegation";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body
       >
+        <ButtonNavegation />
         {children}
       </body>
     </html>
