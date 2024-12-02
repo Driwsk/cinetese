@@ -1,4 +1,4 @@
-import ButtonNavegation from "./components/buttonNavegation"
+import ButtonNavegation from "../components/ui/buttonNavegation"
 
 export default function Home() {
   return (

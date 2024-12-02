@@ -1,1 +1,0 @@
-export { auth as middleware } from "/Users/santa/Desktop/cinetese/tcc/auth"

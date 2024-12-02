@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
-import {NavigationToCatalogo, NavigationToHome} from "@/app/routers/navegation";
-import "../globals.css";
+import {NavigationToCatalogo, NavigationToHome, NavigationToLogin} from "@/routers/navegation";
+
 
 export default function ButtonNavegation() {
   return (
@@ -23,7 +23,7 @@ export default function ButtonNavegation() {
             />
           </svg>
         </button>
-        <button className="active" onClick={NavigationToCatalogo}>
+        <button className="" onClick={NavigationToCatalogo}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -39,7 +39,7 @@ export default function ButtonNavegation() {
             />
           </svg>
         </button>
-        <button>
+        <button onClick={NavigationToLogin}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"

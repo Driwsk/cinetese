@@ -1,10 +1,10 @@
-import CardLogin from "../components/cardLogin"
+import LoginForm from "@/components/LoginForm"
 
 export default function Login() {
     return (
         <>
         <div>
-        <CardLogin/>
+        <LoginForm />
         </div>
       </>
     )

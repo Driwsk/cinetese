@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import ButtonNavegation from "./components/buttonNavegation";
+import ButtonNavegation from "../components/ui/buttonNavegation";
 
 export const metadata: Metadata = {
   title: "Create Next App",

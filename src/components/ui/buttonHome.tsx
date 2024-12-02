@@ -1,6 +1,6 @@
 'use client'
 
-import { NavigationToHome } from "@/app/routers/navegation";
+import { NavigationToHome } from "@/routers/navegation";
 
 export default function ButtonHome(){
 
