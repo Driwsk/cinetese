@@ -1,7 +1,7 @@
-import { auth } from "@/auth"
+import {authOptions, getAuthSession} from "@/app/auth/auth";
 
 export default async function UsersPage() {
-    const session = await auth()
+    const session = await getAuthSession(authOptions);
 
     return (
         <>

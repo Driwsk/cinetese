@@ -1,4 +1,4 @@
-import ButtonHome from "@/components/buttonHome";
+import ButtonHome from "@/components/ui/buttonHome";
 
 export default async function Page({
   params,

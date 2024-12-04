@@ -3,7 +3,7 @@ import React from "react";
 import {NavigationToCatalogo, NavigationToHome, NavigationToLogin} from "@/routers/navegation";
 
 
-export default function ButtonNavegation() {
+export default function BarNavegation() {
   return (
     <>
       <div className="btm-nav fixed top-0 left-0 right-0 z-10 shadow-md">
